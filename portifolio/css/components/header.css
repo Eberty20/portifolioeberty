@@ -1,0 +1,132 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+  scroll-margin-top: 20rem;
+}
+
+header .header__left {
+  max-width: 62rem;
+  flex: 1;
+}
+
+header .header__left p {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  max-width: 50rem;
+}
+
+.content p {
+  display: inline-flex;
+
+  font-size: 2.5rem;
+  line-height: 150%;
+  font-weight: bold;
+
+  margin-bottom: 3.2rem;
+}
+
+.header__left .line {
+  border-right: 0.2rem solid var(--primary-color);
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.header__left .typing {
+  animation: line-typing 500ms steps(40) infinite normal,
+    typing 2s steps(40) 3s normal backwards;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 27.5rem;
+  }
+}
+
+@keyframes line-typing {
+  from {
+    border-right-color: var(--primary-color);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+header .header__right{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+
+  animation: flutuar 3s infinite backwards;
+  position: relative;
+}
+
+@keyframes flutuar {
+  0% {
+    transform: translateY(2rem);
+  }
+  50% {
+    transform: translateY(-2rem);
+  }
+  100% {
+    transform: translateY(2rem);
+  }
+}
+.button {
+  background: none;
+  border: 0.2rem solid var(--primary-color);
+
+  margin-bottom: 6rem;
+  padding: 1.4rem 3rem;
+
+  width: fit-content;
+
+  color: var(--primary-color);
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+
+  position: relative;
+
+  transition: 400ms;
+}
+.button:hover {
+  color: #fff;
+  background-color: var(--primary-color);
+  border: 0.2rem solid var(--black);
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  header .header__left p {
+    margin: 2rem auto 4rem;
+  }
+}
+header .box {
+  text-align: center;
+  max-width: 47rem;
+  min-width: 40;
+  margin-left: 18rem;
+  margin-right: 18rem;
+  margin-top: 3rem;
+}
+
+header .header__left p {
+  margin: 2rem auto 4rem;
+}
