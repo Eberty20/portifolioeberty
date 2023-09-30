@@ -12,7 +12,7 @@ Projeto feito no intuito de me apresentar profissionalmente, e como desenvolvedo
 - **Sobre mim:** Falo sobre meu resumo profissional e apresento minhas redes sociais;
 - **Habilidades:** Falo sobreas minhas habilidades e tecnologias que tenho conhecimento;
 - **Projetos:** Apresento a minha futura seção de projetos;
-- **Contato:** Área com meios para contato comigo;
+- **Contato:** Área com links para contato comigo;
 
 ## 📚 Alguns conceitos aplicados
 
