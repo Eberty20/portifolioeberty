@@ -1,0 +1,137 @@
+footer {
+  background-color: var(--alt);
+}
+
+footer .footer__content {
+  text-align: center;
+  padding: 6rem 2rem 1rem;
+  max-width: 47rem;
+}
+
+footer .footer__content .footer__contact span {
+  display: block;
+  font-weight: 500;
+}
+
+footer .footer__content ul li {
+  display: inline-block;
+}
+
+footer .footer__content ul a {
+  display: inline-block;
+  padding: 1rem;
+}
+
+footer .footer__content .footer__copyright {
+  font-size: 1.4rem;
+}
+
+footer .footer__content .box {
+  text-align: center;
+  max-width: 47rem;
+  margin-top: 3rem;
+}
+
+footer .footer__contact .contato1 {
+  margin-top: 2rem;
+  background: none;
+  border: 0.2rem solid var(--primary-color);
+  margin-bottom: 3rem;
+  padding: 1rem 1rem 1rem 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+  width: 60%; 
+  border-radius: 10px;
+  color: var(--black);
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+  position: relative;
+  transition: 400ms;
+}
+
+footer .footer__contact .contato2 {
+  background: none;
+  border: 0.2rem solid var(--primary-color);
+  padding: 1rem 1rem 1rem 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+  width: 45%; 
+  border-radius: 10px;
+  color: var(--black);
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+  position: relative;
+  transition: 400ms;
+}
+
+footer .footer__contact .contato1:hover {
+  color: #fff;
+  background-color: var(--primary-color);
+  border: 0.2rem solid var(--black);
+  cursor: pointer;
+}
+
+footer .footer__contact .contato2:hover {
+  color: #fff;
+  background-color: var(--primary-color);
+  border: 0.2rem solid var(--black);
+  cursor: pointer;
+}
+
+footer .footer__content .footer__copyright {
+  font-size: 1.4rem;
+  margin-top: 3rem;
+}
+
+footer .footer__content .box {
+  text-align: center;
+  max-width: 47rem;
+  margin-top: 3rem;
+}
+
+.button {
+  background: none;
+  border: 0.2rem solid var(--primary-color);
+
+  margin-bottom: 6rem;
+  padding: 1.4rem 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+  width: 45%; 
+
+  color: var(--primary-color);
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+
+  position: relative;
+
+  transition: 400ms;
+}
+.button:hover {
+  color: #fff;
+  background-color: var(--primary-color);
+  border: 0.2rem solid var(--black);
+  cursor: pointer;
