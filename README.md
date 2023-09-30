@@ -1,6 +1,6 @@
 <h1 align="center">Portifólio - Eberty</h1>
 
-![Imagem do projeto finalizado](portifolio/assets/ebertycapasite.png)
+![Imagem do projeto finalizado](portifolio/assets/capasiteeberty.png)
 
 <h4 align="center"><a href="https://ebertyneres.vercel.app">Confira o projeto aqui</a></h4>
 
