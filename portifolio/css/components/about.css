@@ -10,7 +10,7 @@
   flex: 1;
   border: 3 pix solid black;
   border-color: #000000;
-  padding: 2rem 2rem 2rem 6rem;
+  padding: 4rem 4rem 4rem 4rem;
   border-radius: 10%;
   border-left: -2rem;
   background: var(--alt);
