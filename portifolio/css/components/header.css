@@ -9,6 +9,7 @@ header {
 header .header__left {
   max-width: 62rem;
   flex: 1;
+  margin-top: 15rem;
 }
 
 header .header__left p {
@@ -17,7 +18,12 @@ header .header__left p {
   max-width: 50rem;
 }
 
-.content p {
+header .header__right .header__image {
+  position: relative;
+  line-height: 0;
+}
+
+ header .content p {
   display: inline-flex;
 
   font-size: 2.5rem;
@@ -27,13 +33,13 @@ header .header__left p {
   margin-bottom: 3.2rem;
 }
 
-.header__left .line {
+header .header__left .line {
   border-right: 0.2rem solid var(--primary-color);
   white-space: nowrap;
   overflow: hidden;
 }
 
-.header__left .typing {
+header .header__left .typing {
   animation: line-typing 500ms steps(40) infinite normal,
     typing 2s steps(40) 3s normal backwards;
 }
@@ -57,6 +63,7 @@ header .header__left p {
 }
 
 header .header__right{
+  margin-top: 5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -77,14 +84,21 @@ header .header__right{
     transform: translateY(2rem);
   }
 }
-.button {
+header .box .button {
   background: none;
   border: 0.2rem solid var(--primary-color);
 
   margin-bottom: 6rem;
   padding: 1.4rem 3rem;
 
-  width: fit-content;
+  margin-bottom: 6rem;
+  padding: 1.4rem 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  border-radius: 0.5rem;
+
+  width: 25%; 
 
   color: var(--primary-color);
   font-size: 1.4rem;
@@ -92,16 +106,11 @@ header .header__right{
   text-transform: uppercase;
   text-decoration: none;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1.6rem;
-
   position: relative;
 
   transition: 400ms;
 }
-.button:hover {
+header .box .button:hover {
   color: #fff;
   background-color: var(--primary-color);
   border: 0.2rem solid var(--black);
@@ -117,16 +126,21 @@ header .header__right{
   header .header__left p {
     margin: 2rem auto 4rem;
   }
+  header .box .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
 }
-header .box {
-  text-align: center;
-  max-width: 47rem;
-  min-width: 40;
-  margin-left: 18rem;
-  margin-right: 18rem;
-  margin-top: 3rem;
+header .header__left {
+  margin-top: 0;
+}
+header .header__right {
+  margin-top: 0;
 }
 
-header .header__left p {
-  margin: 2rem auto 4rem;
 }
+
+
+
+

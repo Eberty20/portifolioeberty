@@ -13,7 +13,6 @@ html {
 body {
   font-size: 1.6rem;
   margin-top: 15rem;
-  background-color: var(--dark-secondary-color);
 }
 
 ul {
@@ -41,7 +40,7 @@ h1 {
   font-size: 3.2rem;
   font-weight: 500;
   line-height: 4.5rem;
-  color: var(--black);
+  color: var(--primary-color);
 }
 
 p,
@@ -49,7 +48,6 @@ p,
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 3.5rem;
-  color: var(--black);
 }
 
 p:not(:last-of-type),
@@ -57,20 +55,8 @@ p:not(:last-of-type),
   margin-bottom: 2rem;
 }
 
-.btn {
-  background-color: none;
-  border: none;
-  outline: none;
-  padding: 1rem 4rem;
-  display: inline-block;
-  border-radius: 0.5rem;
-}
-
-.btn.btn-primary {
-  background-color: var(--dark-secondary-color);
+.secondary-p {
   color: var(--white);
-  font-weight: 400;
-  font-size: 1.4rem;
 }
 
 .max-width {

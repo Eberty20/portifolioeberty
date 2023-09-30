@@ -4,13 +4,11 @@
   left: 0;
   width: 100%;
   z-index: 10;
-  font-weight: bold;
-  font-style: oblique;
-  color: var(--white);
-  background-color: var(--bc);
+  background-color: var(--white);
 }
 
 .navbar .navbar__content {
+  padding: 2rem 3rem 1rem;
   display: flex;
   justify-content: space-between;
 }
@@ -69,6 +67,9 @@
     box-shadow: 0 0.4rem 0.5rem rgba(0, 0, 0, 0.1);
     z-index: 1;
   }
+  .navbar .navbar__content .navbar__mobile a:hover {
+  color: var(--tertiary-color);
+}
 
   .navbar .navbar__content .navbar__mobile.active .mobile__links li {
     margin-right: 0;

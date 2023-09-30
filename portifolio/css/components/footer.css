@@ -1,5 +1,5 @@
 footer {
-  background-color: var(--bc);
+  background-color: var(--alt);
 }
 
 footer .footer__content {
@@ -8,33 +8,47 @@ footer .footer__content {
   max-width: 47rem;
 }
 
-footer .footer__content #celular {
-  text-align: center;
-  max-width: 47rem;
-  margin-top: 1rem;
+footer .footer__content .footer__contact span {
+  display: block;
+  font-weight: 500;
+}
+
+footer .footer__content ul li {
+  display: inline-block;
+}
+
+footer .footer__content ul a {
+  display: inline-block;
+  padding: 1rem;
+}
+
+footer .footer__content .footer__copyright {
+  font-size: 1.4rem;
 }
 
 footer .footer__content .box {
   text-align: center;
   max-width: 47rem;
-  margin-left: 13rem;
   margin-top: 3rem;
 }
 
 footer .footer__contact .contato1 {
+  margin-top: 2rem;
   background: none;
   border: 0.2rem solid var(--primary-color);
-  margin-left: 10.5rem;
   margin-bottom: 3rem;
   padding: 1rem 1rem 1rem 1rem;
-  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+  width: 60%; 
   border-radius: 10px;
   color: var(--black);
   font-size: 1.4rem;
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
-  display: flex;
   align-items: center;
   justify-content: center;
   gap: 1.6rem;
@@ -42,31 +56,26 @@ footer .footer__contact .contato1 {
   transition: 400ms;
 }
 
-footer .footer__contact .contato {
+footer .footer__contact .contato2 {
   background: none;
   border: 0.2rem solid var(--primary-color);
-  margin-left: 12.5rem;
   padding: 1rem 1rem 1rem 1rem;
-  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+  width: 45%; 
   border-radius: 10px;
   color: var(--black);
   font-size: 1.4rem;
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
-  display: flex;
   align-items: center;
   justify-content: center;
   gap: 1.6rem;
   position: relative;
   transition: 400ms;
-}
-
-footer .footer__contact .contato:hover {
-  color: #fff;
-  background-color: var(--primary-color);
-  border: 0.2rem solid var(--black);
-  cursor: pointer;
 }
 
 footer .footer__contact .contato1:hover {
@@ -76,44 +85,53 @@ footer .footer__contact .contato1:hover {
   cursor: pointer;
 }
 
+footer .footer__contact .contato2:hover {
+  color: #fff;
+  background-color: var(--primary-color);
+  border: 0.2rem solid var(--black);
+  cursor: pointer;
+}
+
 footer .footer__content .footer__copyright {
   font-size: 1.4rem;
   margin-top: 3rem;
-  margin-left: 3rem;
 }
 
-footer h3{
-  color: var(--white);
-}
-footer h2{
-  color: var(--white);
-}
-footer p{
-  color: var(--white);
+footer .footer__content .box {
+  text-align: center;
+  max-width: 47rem;
+  margin-top: 3rem;
 }
 
-footer ul a {
-  color: var(--white);
+.button {
+  background: none;
+  border: 0.2rem solid var(--primary-color);
+
+  margin-bottom: 6rem;
+  padding: 1.4rem 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+  width: 45%; 
+
+  color: var(--primary-color);
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+
+  position: relative;
+
+  transition: 400ms;
 }
-
-footer .midias ul{
-  margin-left: 10rem;
-}
-
-@media only screen and (max-width: 768px) {
-footer {
-    flex-direction: column;
-    align-items: center;
-  }
-
-footer {
-    max-width: 66rem;
-    text-align: center;
-  }
-
-  footer {
-    text-align: center;
-  }
-}
-
-
+.button:hover {
+  color: #fff;
+  background-color: var(--primary-color);
+  border: 0.2rem solid var(--black);
+  cursor: pointer;
